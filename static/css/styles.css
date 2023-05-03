@@ -1,0 +1,43 @@
+nav{
+    background-color: #8A2BE2;
+    color: whitesmoke;
+    /* #0E1019 */
+}
+
+body{
+    background-color: #0E1019;
+}
+
+#upload-button{
+    background-color: #8A2BE2;
+    color: whitesmoke;
+}
+
+#upload-button:hover{
+    background-color: whitesmoke;
+    color: #8A2BE2;
+}
+
+#submit-button{
+    background-color: #8A2BE2;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 30px;
+    width: 150px;
+}
+
+#submit-button:hover{
+    background-color: whitesmoke;
+    color: #8A2BE2;
+}
+
+.container{
+    margin-top: 100px;
+    width: 800px;
+    border: 2px dashed #8A2BE2;
+    height: 300px;
+}
+
+.container:hover{
+    border: 2px dashed whitesmoke;
+}
