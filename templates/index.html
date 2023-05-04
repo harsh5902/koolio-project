@@ -21,8 +21,12 @@
         </span>
     </form> -->
     <form action="/" method="post" enctype="multipart/form-data">
-        <input type="file" name="file1">
-        <button type="submit">Submit</button>
+        <div class="container d-flex justify-content-center align-items-center">
+            <input id="upload-button" class="btn btn-lg active d-flex justify-content-center align-items-center" type="file" name="file1">
+        </div>
+        <span class="d-flex justify-content-center align-items-center">
+            <button id="submit-button" class="btn btn-lg active d-flex justify-content-center align-items-center" type="submit">Submit</button>
+        </span>
     </form>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>

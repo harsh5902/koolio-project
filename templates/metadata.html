@@ -4,14 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Koolio Uploader</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/css/styles.css">
 </head>
 <body>
-    <h1>Metadata for file you uploaded</h1>
-    <h3>Metadata title: {{metadata.title}}</h3>
-    <h3>Metadata artist: {{metadata.artist}}</h3>
-    <h3>Metadata genre: {{metadata.genre}}</h3>
-    <h3>Metadata size: {{metadata.size}} bytes</h3>
-    <h3>Metadata length: {{metadata.length}} seconds</h3>
+    <nav class="navbar">
+        <span class="navbar-brand mb-0 h1">Koolio</span>
+    </nav>
+    <div>
+        <span class="d-flex justify-content-center align-items-center">
+            <h1>Metadata for file you uploaded</h1>
+        </span>
+        <div class="container d-flex justify-content-center align-items-center">
+            <ul>
+                <li>Audio title:          {{metadata.title}}</li>
+                <br>
+                <li>Audio artist:         {{metadata.artist}}</li>
+                <br>
+                <li>Audio genre:          {{metadata.genre}}</li>
+                <br>
+                <li>Audio size:           {{metadata.size}} bytes</li>
+                <br>
+                <li>Audio length:         {{metadata.length}} seconds</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
