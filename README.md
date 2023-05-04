@@ -37,3 +37,12 @@ Pydub
 <br>
 WTForms
 <br>
+
+
+Database:
+![image](https://user-images.githubusercontent.com/74867899/236321748-e0f88cb3-3a3a-4d05-9190-88e6516c76a3.png)
+
+Website:
+![image](https://user-images.githubusercontent.com/74867899/236321933-66536b95-07d4-49f3-aff6-ad6d12e67ed3.png)
+![image](https://user-images.githubusercontent.com/74867899/236322231-982701aa-b30c-4e1e-a7da-65265192451c.png)
+
